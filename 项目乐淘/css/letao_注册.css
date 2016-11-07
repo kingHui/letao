@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0; padding: 0;}
+li{list-style: none;font-size: 14px;}
+a{text-decoration: none;font-size: 14px;color:#454545;}
+img{border: none;float: left;}
+tr{font-size: 14px;}
+input{font-size: 14px;}
+
+#adress{
+		width:1200px;
+		border-bottom: 1px solid gray;
+		margin: 0 auto;
+		font-size: 14px;
+		padding: 5px 0;
+		}
+#hint{
+	width: 1200px;
+	margin: 0 auto;	
+	}
+#hint p{
+	font-size: 14px; 	
+	margin-top: 5px;
+	float:right;
+	}
+#regedit{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative; 	
+	}
+#regedit #regedit_txt{
+					position: relative; 
+					top:00px; 
+					left:400px;
+					width: 800px;
+					margin: 20px 0;				
+					}
+#regedit #regedit_txt tr{						
+						color: #999999;
+						width: 694px;
+						
+						}
+#regedit #regedit_txt td{
+						padding: 8px 0;
+						}						
+#regedit #regedit_txt td input{
+							padding: 4px 0;			
+							}
+#regedit #regedit_txt .txt_td{
+							float: right;
+							line-height: 30px;
+							color: #000000;							
+							}
+#regedit #regedit_txt #txt_btn{
+								width: 150px;
+								color: #FFFFFF;
+								background: red;
+								border: none;
+								font-size: 16px;
+								}
+#regedit #regedit_txt td span{
+							margin-left:4px ;
+							}																
+
+
+
+
+
+
+
+
+
+
+
+

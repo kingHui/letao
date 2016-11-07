@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0;padding: 0;}
+li{list-style: none;font-size: 14px;}
+a{text-decoration: none;font-size: 14px;color:#454545;}
+img{border: none;float: left;}
+
+
+#adress{
+		width:1200px;
+		border-bottom: 1px solid gray;
+		margin: 0 auto;
+		font-size: 14px;
+		padding: 5px 0;
+		}
+#enter{	
+	overflow: hidden;
+	padding: 50px 60px 30px 150px;
+	}
+#regedit{
+	float: left;
+	}
+#regedit #regedit_txt tr{						
+						color: #999999;
+						width: 694px;
+						
+						}
+#regedit #regedit_txt td{
+						padding: 8px 0;
+						}						
+#regedit #regedit_txt td input{
+							padding: 4px 0;			
+							}
+#regedit #regedit_txt .txt_td{
+							float: right;
+							line-height: 30px;
+							color: #000000;							
+							}
+#regedit #regedit_txt #txt_btn{
+								width: 150px;
+								color: #FFFFFF;
+								background: red;
+								border: none;
+								font-size: 16px;
+								}
+#regedit #regedit_txt td span{
+							margin-left:4px ;
+							
+							}
+#rightTxt{
+	float: right;
+	padding-left: 100px;
+	border-left: 1px solid gray;
+	width: 320px;
+	height: 200px;
+	margin-right: 90px;
+	}							
+#rightTxt  h5{
+			margin-top: 50px;
+			font-size: 14px;
+      		}
+#rightTxt #newuser{
+					font-size: 14px;
+					padding:  8px 0;
+					color: #999999;					
+					}  		
+#rightTxt input{
+				width: 91px;
+				text-align: center;
+				color: #3165CD;
+				margin-left: 100px;				
+				}     										
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+												

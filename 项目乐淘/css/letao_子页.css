@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0;padding: 0;}
+li{list-style: none;font-size: 14px;}
+a{text-decoration: none;font-size: 14px;color:#454545;}
+img{border: none;float: left;}
+p{font-size: 12px;}
+
+
+#filtrate{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px ;
+	overflow: hidden;
+	border: 2px solid gray;
+}
+#boyshoes{
+	font-size: 14px;
+	padding: 20px 8px 4px;
+	background: #F7F7F7;
+}
+#classify ul{
+	padding: 10px 0;
+	overflow: hidden;
+	border-bottom:2px dashed #E6E6E6;
+}
+#classify ul li{
+	float: left;
+	padding: 5px 20px 0 10px;	
+}
+#brand ul{
+	padding: 10px 0;
+	overflow: hidden;
+	border-bottom:2px dashed #E6E6E6;
+}		
+#brand ul li{
+	float: left;
+	padding: 5px 20px 0 10px;	
+	}
+#design ul{
+	padding: 10px 0;
+	overflow: hidden;
+	border-bottom:2px dashed #E6E6E6;
+}	
+#design ul li{
+	float: left;
+	padding: 5px 20px 0 10px;	
+	}
+#size ul{
+	padding: 10px 0;
+	overflow: hidden;
+	border-bottom:2px dashed #E6E6E6;
+}
+#size ul li{
+	float: left;
+	padding: 5px 20px 0 10px;	
+}
+#price ul{
+	padding: 10px 0;
+	overflow: hidden;
+	border-bottom:2px dashed #E6E6E6;
+}			
+#price ul li{
+	float: left;
+	padding: 5px 20px 0 10px;
+	}
+#color ul{
+	padding: 10px 0;
+	overflow: hidden;
+	border-bottom:2px dashed #E6E6E6;
+}
+#color ul li{
+	float: left;
+	padding: 5px 20px 0 10px;	
+}
+#angle ul{
+	padding: 10px 0;
+	overflow: hidden;
+}			
+#angle ul li{
+	float: left;
+	padding: 5px 20px 0 10px;
+	}
+#TabControl{
+	width: 1200px;
+	margin: 0 auto;
+	border-bottom:2px solid #E61C3C;
+		
+}
+#TabControl ul{
+	padding: 10px 0 0;
+	overflow: hidden;
+}
+#TabControl ul li{
+	float: left;
+	padding: 7px 30px ;
+	margin-right: 5px;
+	background: #ECECEC;
+	border:1px dashed #E1E1E1;	
+	}
+#mainBody{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 3px 0 8px;
+	border-bottom:2px solid #DDDDDD;
+	overflow: hidden;
+}
+#mainBody #shoesShow li{
+	width: 225px;
+	padding: 6px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+#mainBody #shoesShow li .shoePic{
+	display: block;
+	padding-top: 40px;
+	width: 224px;
+	text-align: center;
+	overflow: hidden;
+	}
+#mainBody #shoesShow li .shoePic img{
+	text-align: center;
+	display: inline-block;
+	overflow: hidden;	
+}
+#mainBody #shoesShow li p .shoeName{
+	padding: 12px 15px 0;
+	white-space:nowrap;/* 不换行 */
+	overflow: hidden;
+    display: block;	
+    overflow: hidden;
+}
+#mainBody #shoesShow li p .shoeName a{
+	font-size: 12px;
+}
+#mainBody #shoesShow li p .shopPrice{
+	padding: 6px 15px 0;
+	display: block;
+}
+#mainBody #shoesShow li p .letaoPrice{
+	padding: 6px 15px 0;
+	display: block;
+}
+#page{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 10px 0 20px;
+	overflow: hidden;	
+}
+#page ul{
+	float: right;
+}
+#page ul li{
+	float: left;
+	margin-right: 5px;
+	padding: 8px 12px;
+	border: 1px solid #DDDDDD;
+}
+#page ul #omit{
+	padding:0;
+	margin-top:7px;	
+	border: none;
+}
+#page ul li a{
+	float: left;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

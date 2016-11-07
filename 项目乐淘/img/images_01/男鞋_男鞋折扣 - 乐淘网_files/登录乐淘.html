@@ -1,0 +1,882 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0045)http://www.letao.com/letaozu/login/login.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xn="http:///www.renren.com/2009/xnml" lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=0.2, maximum-scale=2.0, user-scalable=yes">
+<meta name="google-site-verification" content="tY90s9x_lV7x599WoPevLJfGQXcMV3oDQURTHCvtZSU">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta http-equiv="Access-Control-Allow-Origin" content="*">
+<title>登录乐淘</title>
+<link href="./登录乐淘_files/letaoUIV2.css" rel="stylesheet" type="text/css" charset="utf-8">
+<link href="./登录乐淘_files/global.css" rel="stylesheet" type="text/css" charset="utf-8">
+<link href="./登录乐淘_files/index.css" rel="stylesheet" type="text/css" charset="utf-8">
+<link href="./登录乐淘_files/star.css" rel="stylesheet" type="text/css" charset="utf-8">
+<link href="./登录乐淘_files/jquery.autocomplete.css" rel="stylesheet" type="text/css" charset="utf-8">
+<link href="./登录乐淘_files/register.css" rel="stylesheet" type="text/css" charset="utf-8">
+<script type="text/javascript" async="" src="./登录乐淘_files/ga.js"></script><script language="javascript" type="text/javascript" src="./登录乐淘_files/base2.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="./登录乐淘_files/base.Letao.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="./登录乐淘_files/TabSwitch.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="./登录乐淘_files/jquery.soChange.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="./登录乐淘_files/jQuery.textSlider.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="./登录乐淘_files/jquery.slimscroll.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="./登录乐淘_files/index.js" charset="utf-8" async="async"></script>
+<script language="javascript" type="text/javascript" src="./登录乐淘_files/jquery.autocomplete.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="./登录乐淘_files/localdata_admin.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="./登录乐淘_files/cityjson" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="./登录乐淘_files/jquery.cookie.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="./登录乐淘_files/validator.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript">
+var siteID=2,ltSite=1;var lt_page_id='login_v10';
+var ltNavPage=-1;
+</script>
+<script type="text/javascript" src="./登录乐淘_files/base.js"></script><link rel="stylesheet" type="text/css" href="./登录乐淘_files/xn_connect.css"><script type="text/javascript" src="./登录乐淘_files/api.js"></script><script type="text/javascript" src="./登录乐淘_files/exnml.js"></script></head>
+<body>
+<header class="header" style="width: 1263px;">
+<div class="rightFixed" id="rightFixed">
+<div class="inforight">
+<div class="portrait icon-user-1">
+<div class="cusinfo">
+<ul class="cusleft">
+<li><a href="http://www.letao.com/letaozu/MyLetao/OrderList.aspx" rel="nofollow">我的订单</a>
+</li>
+<li><a href="http://www.letao.com/letaozu/MyLetao/CommentList.aspx" rel="nofollow">商品评价</a></li>
+<li><a href="http://www.letao.com/letaozu/MyLetao/MyComment.aspx" rel="nofollow">咨询回复</a></li>
+<li><a href="http://www.letao.com/letaozu/MyLetao/MyCoupan.aspx" rel="nofollow">我的优惠券</a></li>
+</ul>
+<ul class="cusright">
+<li><a href="http://www.letao.com/letaozu/MyLetao/so_order_service.aspx" rel="nofollow">申请售后服务</a></li>
+<li><a href="http://www.letao.com/letaozu/MyLetao/ChangePwd.aspx" rel="nofollow">修改密码</a></li>
+<li><a href="http://www.letao.com/letaozu/MyLetao/MyAddress.aspx" rel="nofollow">收货地址</a></li>
+<li><a href="http://www.letao.com/letaozu/MyLetao/MyShoeSize.aspx" rel="nofollow">鞋码换算</a></li>
+</ul>
+</div>
+</div>
+<div class="line">—</div>
+<div id="Cart" class="caricon icon-basket shopping"><div class="cicyle shopping"><a class="shopping" href="javascript:;" id="cartNum">0</a></div></div>
+<div class="line">—</div>
+<div class="order icon-doc-text">
+<div class="ordertext">
+<a href="http://www.letao.com/letaozu/MyLetao/OrderList.aspx" title="我的订单" rel="nofollow">我的订单</a>
+</div>
+</div>
+<div class="collect icon-star-empty">
+<div class="collecttext">
+收藏网站
+</div>
+</div><div class="attention icon-heart-empty">
+<div class="qrcode"></div>
+</div>
+<div class="tochat icon-comment-1"><a href="http://www.letao.com/letaozu/help/help.aspx?id=1021" rel="nofollow"><div class="tochattext">联系乐淘</div></a></div>
+<div class="line2" style="display: none;">—</div>
+<div class="gotop" style="display: none;">
+<i class="Arrows icon-up-dir"></i><div class="gotoptitle">
+返回顶部
+</div>
+</div>
+</div>
+</div>
+<div class="cart-wrap shopping" id="carttoolsNav"><div class="cartnull shopping">                         <a class="cartdetail fr shopping" href="http://www.letao.com/letaozu/pay/usercart.aspx">全屏查看</a>   </div>                                         <div class="carts shopping">                            <div class="cartstext f16 shopping">                    您的购物车中暂无商品，赶快选择心爱的商品吧！      </div>                                         </div>                                         <div class="cartsbottom shopping">                      <div class="cartsTotal shopping">                       <h3 class="fl shopping">                                <span class="shopping">已选</span>                              <strong class="CartNum shopping">0</strong>             <span class="shopping">件</span>                                </h3>                                          <div class="FeeWrap fl shopping">                       <span class="ico shopping">¥</span>                     <strong class="prices shopping">0.00</strong>           </div>                                         </div>                                         <div class="Cashier btn_red gray shopping"><div class="AccountGo f14 shopping">                    结算                                           </div>                                         </div>                                         </div></div>
+<div class="topheader">
+<div class="top">
+<div class="leftContennt">
+<div id="Express">送至：
+<span id="prov">北京</span>
+<i class="icon-down-dir"></i>
+<div class="EDiv">
+<ul>
+<li><a href="" onclick="SelectProv(this)" class="sign">北京</a></li>
+<li><a href="" onclick="SelectProv(this)">上海</a></li>
+<li><a href="" onclick="SelectProv(this)">天津</a></li>
+<li><a href="" onclick="SelectProv(this)">河北</a></li>
+<li><a href="" onclick="SelectProv(this)">山西</a></li>
+<li><a href="" onclick="SelectProv(this)">河南</a></li>
+<li><a href="" onclick="SelectProv(this)">辽宁</a></li>
+<li><a href="" onclick="SelectProv(this)">黑龙江</a></li>
+<li><a href="" onclick="SelectProv(this)">内蒙古</a></li>
+<li><a href="" onclick="SelectProv(this)">江苏</a></li>
+<li><a href="" onclick="SelectProv(this)">山东</a></li>
+<li><a href="" onclick="SelectProv(this)">安徽</a></li>
+<li><a href="" onclick="SelectProv(this)">浙江</a></li>
+<li><a href="" onclick="SelectProv(this)">福建</a></li>
+<li><a href="" onclick="SelectProv(this)">湖北</a></li>
+<li><a href="" onclick="SelectProv(this)">湖南</a></li>
+<li><a href="" onclick="SelectProv(this)">广东</a></li>
+<li><a href="" onclick="SelectProv(this)">广西</a></li>
+<li><a href="" onclick="SelectProv(this)">江西</a></li>
+<li><a href="" onclick="SelectProv(this)">四川</a></li>
+<li><a href="" onclick="SelectProv(this)">海南</a></li>
+<li><a href="" onclick="SelectProv(this)">贵州</a></li>
+<li><a href="" onclick="SelectProv(this)">云南</a></li>
+<li><a href="" onclick="SelectProv(this)">西藏</a></li>
+<li><a href="" onclick="SelectProv(this)">陕西</a></li>
+<li><a href="" onclick="SelectProv(this)">甘肃</a></li>
+<li><a href="" onclick="SelectProv(this)">青海</a></li>
+<li><a href="" onclick="SelectProv(this)">宁夏</a></li>
+<li><a href="" onclick="SelectProv(this)">新疆</a></li>
+<li><a href="" onclick="SelectProv(this)">台湾</a></li>
+<li><a href="" onclick="SelectProv(this)">香港</a></li>
+<li><a href="" onclick="SelectProv(this)">澳门</a></li>
+</ul>
+</div>
+</div>
+<span>|</span>
+<a id="collect">
+<i class="icon-star"></i>
+&nbsp;收藏&nbsp;</a>
+<span>|</span>
+<div id="qrLetao"><i class="icon-th-large-1"></i>关注
+<div class="qrcode" style="display: none;"></div>
+</div>
+</div>
+<div class="rightContent">
+<a id="Login" href="http://www.letao.com/letaozu/login/login.aspx" title="请登陆" target="_blank" style="color: #d10042;">请登陆</a>
+<span>|</span>
+<a id="Reg" href="http://www.letao.com/letaozu/login/Register.aspx" title="免费注册" target="_blank" style="color: #d10042;">免费注册</a>
+<span>|</span>
+<div id="MyLetao">我的乐淘<i class="icon-down-dir"></i>
+<div class="cusinfos" style="display: none;">
+<ul class="cusleft">
+<li><a href="http://www.letao.com/letaozu/MyLetao/OrderList.aspx" rel="nofollow">我的订单</a>
+</li>
+<li><a href="http://www.letao.com/letaozu/MyLetao/CommentList.aspx" rel="nofollow">商品评价</a></li>
+<li><a href="http://www.letao.com/letaozu/MyLetao/MyComment.aspx" rel="nofollow">咨询回复</a></li>
+<li><a href="http://www.letao.com/letaozu/MyLetao/MyCoupan.aspx" rel="nofollow">我的优惠券</a></li>
+</ul>
+<ul class="cusright">
+<li><a href="http://www.letao.com/letaozu/MyLetao/so_order_service.aspx" rel="nofollow">申请售后服务</a></li>
+<li><a href="http://www.letao.com/letaozu/MyLetao/ChangePwd.aspx" rel="nofollow">修改密码</a></li>
+<li><a href="http://www.letao.com/letaozu/MyLetao/MyAddress.aspx" rel="nofollow">收货地址</a></li>
+<li><a href="http://www.letao.com/letaozu/MyLetao/MyShoeSize.aspx" rel="nofollow">鞋码换算</a></li>
+</ul>
+</div>
+</div>
+<span>|</span>
+<div id="MyOrder">
+<a href="http://www.letao.com/letaozu/pay/usercart.aspx" title="购物车" rel="nofollow"><i class="icon-basket f18"></i>购物车</a>
+</div>
+<span>|</span>
+<div id="MyMessage">
+<i class="icon-mail"></i>消息
+<div class="LetaoMess">
+<a href="http://www.letao.com/letaozu/articlelist.aspx" title="最新公告" rel="nofollow">最新公告(<b>0</b>)
+</a>
+<a href="http://www.letao.com/letaozu/myletao/OrderList.aspx" title="订单提醒" rel="nofollow">订单提醒(<b>0</b>)
+</a>
+<a href="http://www.letao.com/letaozu/myletao/CommentList.aspx" title="评价提醒" rel="nofollow">评价提醒(<b>0</b>)
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<a href="http://www.letao.com/market--mkt-20160801?sid=8&amp;pcode=zhuant20160801&amp;ob=0&amp;mtype=2" target="_blanck"><img src="./登录乐淘_files/banner20160822.png" style="width: 100%;height:64px"></a>
+<div class="topcenter">
+<div class="center">
+<div class="leftContennt">
+<a href="http://www.letao.com/"><img class="imagelog" alt="" src="./登录乐淘_files/Logo.png" style=""></a>
+</div>
+<div class="centerContent">
+<div class="searcher">
+<input type="text" id="iptSearch" class="serachContent" placeholder="请您输入想要搜索的关键词">
+<i class="Magnifier icon-search"></i><em id="btnSearch" class="serachbtn">搜索</em>
+</div>
+<div class="buttomcontent">
+<span>热门搜索：</span>
+<a href="http://www.letao.com/s~%E4%BC%91%E9%97%B2%E9%9E%8B?ts=201611021142" title="休闲鞋" target="_blank" rel="nofollow">休闲鞋</a>
+<a href="http://www.letao.com/s~%E8%BF%90%E5%8A%A8%E9%9E%8B?ts=201611021142" title="运动鞋" target="_blank" rel="nofollow">运动鞋</a>
+<a href="http://www.letao.com/s~%E5%95%86%E5%8A%A1%E9%9E%8B?ts=201611021142" title="商务鞋" target="_blank" rel="nofollow">商务鞋</a>
+<a href="http://www.letao.com/s~%E6%88%B7%E5%A4%96%E9%9E%8B?ts=201611021142" title="户外鞋" target="_blank" rel="nofollow">户外鞋</a>
+<a href="http://www.letao.com/s~%E5%B8%86%E5%B8%83%E9%9E%8B?ts=201611021142" title="帆布鞋" target="_blank" rel="nofollow">帆布鞋</a>
+</div>
+</div>
+<div class="rightContent">
+<div class="Guarantee">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1290" title="正品保障" target="_blank" rel="nofollow"><i class="PICC"></i>厂家直供<br><span>正品保障</span>
+</a>
+</div>
+<div class="Exchange">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1286" title="7天退换货" target="_blank" rel="nofollow"><i class="Purchase"></i>7天退换货<br><span>购物有保障</span>
+</a>
+</div>
+<div class="FreeShipping">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1280" title="满149包邮" target="_blank" rel="nofollow"><i class="Free"></i>满149包邮<br><span>闪电发货</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="topbttom">
+<div class="bottom">
+<div class="h_left" onmouseover="$(&#39;.cata&#39;).show();" onmouseout="$(&#39;.cata&#39;).hide();">
+<em>所有商品分类</em><i class="Arrow icon-angle-down"></i>
+<div class="cata" style="display:none;">
+<ul class="CataList">
+<li class="woman cataline bgf">
+<i class="i"></i>女鞋
+<ul class="smallcata">
+<li>
+<a target="_blank" title="单鞋" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-n~woman" lt_stat_linkid="lt_submenu_1_list_0_6628137765" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_0_2">单鞋</a>
+</li>
+<li>
+<a target="_blank" title="短靴" href="http://www.letao.com/shoe-a-0-a-a-a-a-a-a-s~%E7%9F%AD%E9%9D%B4" lt_stat_linkid="lt_submenu_1_list_0_5536170665" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_0_3">短靴</a>
+</li>
+<li>
+<a target="_blank" title="马丁靴" href="http://www.letao.com/shoe-a-0-a-a-a-a-a-a-s~%E9%A9%AC%E4%B8%81%E9%9D%B4" lt_stat_linkid="lt_submenu_1_list_0_8049146957" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_0_4">马丁靴</a>
+</li>
+<li>
+<a target="_blank" title="长靴" href="http://www.letao.com/shoe-4-0-16-a-a-a-a-a-s~%E9%95%BF%E9%9D%B4" lt_stat_linkid="lt_submenu_1_list_0_8067667457" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_0_5">长靴</a>
+</li>
+<li>
+<a target="_blank" title="凉拖" href="http://www.letao.com/shoe-4-0-34-a-a-a-a-a-n~woman" lt_stat_linkid="lt_submenu_1_list_0_4491674062" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_0_0">凉拖</a>
+</li>
+<li>
+<a target="_blank" title="凉鞋" href="http://www.letao.com/shoe-4-0-14-a-a-a-a-a-n~woman" lt_stat_linkid="lt_submenu_1_list_0_9010028398" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_0_1">凉鞋</a>
+</li>
+<div class="rightsmall"></div>
+<div class="RightCata">
+<div>品牌：<ul>
+<li>
+<a target="_self" href="http://www.letao.com/xxa-4-0-a-a-a-a-a-a-n~woman">啸行安</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/reddream-4-0-a-a-a-a-a-a-n~woman">Red dream lover</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/robinloco-4-0-a-a-a-a-a-a-n~woman">ROBINLO&amp;CO.罗宾诺</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/pf-4-0-a-a-a-a-a-a-n~woman">PathFinder</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/gogoflats-4-0-a-a-a-a-a-a-n~woman">GOGO FLATS</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/lovebar-4-0-a-a-a-a-a-a-n~woman">LOVE BAR</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/infit-4-0-a-a-a-a-a-a-n~woman">英菲特</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/kldz-4-0-a-a-a-a-a-a-n~woman">克萝黛姿</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/dj-4-0-a-a-a-a-a-a-n~woman">D&amp;J </a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/ovenus-4-0-a-a-a-a-a-a-n~woman">OVENUS</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/beautoday-4-0-a-a-a-a-a-a-n~woman">BEAUTODAY</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/moleikoulei-4-0-a-a-a-a-a-a-n~woman">莫蕾寇蕾</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/beau-4-0-a-a-a-a-a-a-n~woman">BEAU</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/gqtl-4-0-a-a-a-a-a-a-n~woman">古奇天伦</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/lkjd-4-0-a-a-a-a-a-a-n~woman">莱卡金顿</a>
+</li>
+</ul>
+</div>
+<div>款式：<ul>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-0-22-a-a-a-a-a-n~woman">休闲皮鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-n~woman">单鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-0-16-a-a-a-a-a-n~woman">靴子</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-0-14-a-a-a-a-a-n~woman">凉鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-0-34-a-a-a-a-a-n~woman">凉拖</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-0-61-a-a-a-a-a-n~woman">短靴</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-0-62-a-a-a-a-a-n~woman">凉靴</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-0-66-a-a-a-a-a-n~woman">布鞋</a>
+</li>
+</ul>
+</div>
+<div>跟款：<ul>
+<li>
+<a target="_blank" title="平底" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-s~%E5%B9%B3%E8%B7%9F%E9%9E%8B" lt_stat_linkid="lt_submenu_1_list_1_1193993721" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_1_0">平底</a>
+</li>
+<li>
+<a target="_blank" title="低跟" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-s~%E4%BD%8E%E8%B7%9F%E9%9E%8B" lt_stat_linkid="lt_submenu_1_list_1_5359746746" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_1_1">低跟</a>
+</li>
+<li>
+<a target="_blank" title="高跟" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-3:6-n" lt_stat_linkid="lt_submenu_1_list_1_9040975973" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_1_2">高跟</a>
+</li>
+<li>
+<a target="_blank" title="厚底" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-s~%E5%8E%9A%E5%BA%95" lt_stat_linkid="lt_submenu_1_list_1_2302696779" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_1_3">厚底</a>
+</li>
+<li>
+<a target="_blank" title="粗跟" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-4:5-n" lt_stat_linkid="lt_submenu_1_list_1_2940626560" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_1_5">粗跟</a>
+</li>
+<li>
+<a target="_blank" title="增高" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-s~%E5%86%85%E5%A2%9E%E9%AB%98" lt_stat_linkid="lt_submenu_1_list_1_1516281728" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_1_6">增高</a>
+</li>
+<li>
+<a target="_blank" title="超高跟" href="http://www.letao.com/s~%E8%B6%85%E9%AB%98%E8%B7%9F?ts=201409120643" lt_stat_linkid="lt_submenu_1_list_1_4345813847" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_1_7">超高跟</a>
+</li>
+</ul>
+</div>
+<div>热门推荐：<ul>
+<li>
+<a target="_blank" title="秋款女鞋" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-s~%E7%A7%8B%E6%AC%BE%E5%A5%B3%E9%9E%8B" lt_stat_linkid="lt_submenu_1_list_2_8982344234" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_2_0">秋款女鞋</a>
+</li>
+<li>
+<a target="_blank" title="尖头鞋" href="http://www.letao.com/shoe-a-0-11-a-a-a-a-a-s~%E5%B0%96%E5%A4%B4%E9%9E%8B" lt_stat_linkid="lt_submenu_1_list_2_7539368507" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_2_1">尖头鞋</a>
+</li>
+<li>
+<a target="_blank" title="豆豆鞋" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-s~%E8%B1%86%E8%B1%86" lt_stat_linkid="lt_submenu_1_list_2_3137375182" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_2_2">豆豆鞋</a>
+</li>
+<li>
+<a target="_blank" title="铆钉鞋" href="http://www.letao.com/shoe-a-0-11-a-a-a-a-a-s~%E9%93%86%E9%92%89" lt_stat_linkid="lt_submenu_1_list_2_4804695423" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_2_3">铆钉鞋</a>
+</li>
+<li>
+<a target="_blank" title="水晶鞋" href="http://www.letao.com/shoe-a-a-11-a-a-a-a-a-s~%E6%B0%B4%E6%99%B6" lt_stat_linkid="lt_submenu_1_list_2_8081550806" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_2_4">水晶鞋</a>
+</li>
+<li>
+<a target="_blank" title="防水台" href="http://www.letao.com/shoe-a-a-11-a-a-a-a-a-s~%E9%98%B2%E6%B0%B4%E5%8F%B0" lt_stat_linkid="lt_submenu_1_list_2_5941353761" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_2_5">防水台</a>
+</li>
+<li>
+<a target="_blank" title="超轻底" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-s~%E8%B6%85%E8%BD%BB%E5%BA%95" lt_stat_linkid="lt_submenu_1_list_2_1221899763" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_2_6">超轻底</a>
+</li>
+<li>
+<a target="_blank" title="复古风" href="http://www.letao.com/shoe-a-0-11-a-a-a-a-a-s~%E5%A4%8D%E5%8F%A4" lt_stat_linkid="lt_submenu_1_list_2_2713850907" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_2_7">复古风</a>
+</li>
+<li>
+<a target="_blank" title="糖果色" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-s~%E7%B3%96%E6%9E%9C%E8%89%B2" lt_stat_linkid="lt_submenu_1_list_2_3764769743" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_2_8">糖果色</a>
+</li>
+<li>
+<a target="_blank" title="蝴蝶结" href="http://www.letao.com/shoe-a-0-11-a-a-a-a-a-s~%E8%9D%B4%E8%9D%B6%E7%BB%93" lt_stat_linkid="lt_submenu_1_list_2_7771412806" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_2_9">蝴蝶结</a>
+</li>
+<li>
+<a target="_blank" title="豹纹" href="http://www.letao.com/shoe-a-a-11-a-a-a-a-a-s~%E8%B1%B9%E7%BA%B9" lt_stat_linkid="lt_submenu_1_list_2_9260253681" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_2_10">豹纹</a>
+</li>
+<li>
+<a target="_blank" title="欧美风" href="http://www.letao.com/shoe-4-0-11-a-a-a-a-a-s~%E6%AC%A7%E7%BE%8E" lt_stat_linkid="lt_submenu_1_list_2_5912663966" lt_stat_type="1" lt_stat_id="lt_submenu_1_list_2_11">欧美风</a>
+</li>
+</ul>
+</div>
+</div>
+</ul>
+</li>
+<li class="man cataline bgf">
+<i class="i"></i>男鞋
+<ul class="smallcata bgf">
+<li>
+<a target="_blank" title="商务休闲" href="http://www.letao.com/s~%E5%95%86%E5%8A%A1%E4%BC%91%E9%97%B2?ts=201407250128" lt_stat_linkid="lt_submenu_2_list_0_7974435742" lt_stat_type="1" lt_stat_id="lt_submenu_2_list_0_0">商务休闲</a>
+</li>
+<li>
+<a target="_blank" title="商务正装" href="http://www.letao.com/s~%E5%95%86%E5%8A%A1%E6%AD%A3%E8%A3%85?ts=201407250126" lt_stat_linkid="lt_submenu_2_list_0_2057824112" lt_stat_type="1" lt_stat_id="lt_submenu_2_list_0_1">商务正装</a>
+</li>
+<li>
+<a target="_blank" title="休闲皮鞋" href="http://www.letao.com/shoe-a-1-a-a-a-a-a-a-s~%E4%BC%91%E9%97%B2%E7%9A%AE%E9%9E%8B" lt_stat_linkid="lt_submenu_2_list_0_4326378863" lt_stat_type="1" lt_stat_id="lt_submenu_2_list_0_2">休闲皮鞋</a>
+</li>
+<div class="rightsmall"></div>
+<div class="RightCata">
+<div>品牌：<ul>
+<li>
+<a target="_self" href="http://www.letao.com/lenslou-4-1-a-a-a-a-a-a-n~man">帝国奈克</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/xxa-4-1-a-a-a-a-a-a-n~man">啸行安</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/cleef-4-1-a-a-a-a-a-a-n~man">CLEEF</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/apple-4-1-a-a-a-a-a-a-n~man">APPLE/苹果</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/pf-4-1-a-a-a-a-a-a-n~man">PathFinder</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/ege-4-1-a-a-a-a-a-a-n~man">EGE</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/lovebar-4-1-a-a-a-a-a-a-n~man">LOVE BAR</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/mulinsen-4-1-a-a-a-a-a-a-n~man">木林森</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/gqtl-4-1-a-a-a-a-a-a-n~man">古奇天伦</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/dj-4-1-a-a-a-a-a-a-n~man">D&amp;J</a>
+</li>
+</ul>
+</div>
+<div>款式：<ul>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-1-18-a-a-a-a-a-n~man">板鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-1-29-a-a-a-a-a-n~man">休闲鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-1-27-a-a-a-a-a-n~man">商务皮鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-1-22-a-a-a-a-a-n~man">休闲皮鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-1-11-a-a-a-a-a-n~man">单鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-1-16-a-a-a-a-a-n~man">靴子</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-1-14-a-a-a-a-a-n~man">凉鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-1-34-a-a-a-a-a-n~man">凉拖</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-4-1-53-a-a-a-a-a-n~man">拖鞋</a>
+</li>
+</ul>
+</div>
+<div>热门推荐：<ul>
+<li>
+<a target="_blank" title="凉鞋" href="http://www.letao.com/shoe-4-1-a-a-a-a-a-a-s~%E5%87%89%E9%9E%8B" lt_stat_linkid="lt_submenu_2_list_1_9606192448" lt_stat_type="1" lt_stat_id="lt_submenu_2_list_1_0">凉鞋</a>
+</li>
+<li>
+<a target="_blank" title="超轻底" href="http://www.letao.com/manwillshoe-a-1-a-a-a-a-a-a-s~%E8%B6%85%E8%BD%BB%E5%BA%95" lt_stat_linkid="lt_submenu_2_list_1_5102540043" lt_stat_type="1" lt_stat_id="lt_submenu_2_list_1_1">超轻底</a>
+</li>
+<li>
+<a target="_blank" title="圆头鞋" href="http://www.letao.com/shoe-4-1-a-a-a-a-a-a-5:5-n" lt_stat_linkid="lt_submenu_2_list_1_5909870956" lt_stat_type="1" lt_stat_id="lt_submenu_2_list_1_2">圆头鞋</a>
+</li>
+<li>
+<a target="_blank" title="方头鞋" href="http://www.letao.com/shoe-4-1-a-a-a-a-a-a-5:6-n" lt_stat_linkid="lt_submenu_2_list_1_1851645507" lt_stat_type="1" lt_stat_id="lt_submenu_2_list_1_3">方头鞋</a>
+</li>
+<li>
+<a target="_blank" title="尖头鞋" href="http://www.letao.com/shoe-4-1-a-a-a-a-a-a-5:7-n" lt_stat_linkid="lt_submenu_2_list_1_8245179828" lt_stat_type="1" lt_stat_id="lt_submenu_2_list_1_4">尖头鞋</a>
+</li>
+<li>
+<a target="_blank" title="防臭透气" href="http://www.letao.com/shoe-4-1-a-a-a-a-a-a-s~%E9%98%B2%E8%87%AD%E9%80%8F%E6%B0%94" lt_stat_linkid="lt_submenu_2_list_1_8202935780" lt_stat_type="1" lt_stat_id="lt_submenu_2_list_1_5">防臭透气</a>
+</li>
+<li>
+<a target="_blank" title="牛皮" href="http://www.letao.com/shoe-4-1-a-a-a-a-a-a-s~%E7%89%9B%E7%9A%AE%E7%94%B7%E9%9E%8B" lt_stat_linkid="lt_submenu_2_list_1_5168451823" lt_stat_type="1" lt_stat_id="lt_submenu_2_list_1_6">牛皮</a>
+</li>
+<li>
+<a target="_blank" title="英伦风" href="http://www.letao.com/shoe-4-1-a-a-a-a-a-a-s~%E8%8B%B1%E4%BC%A6%20%E7%94%B7%E9%9E%8B" lt_stat_linkid="lt_submenu_2_list_1_2196578383" lt_stat_type="1" lt_stat_id="lt_submenu_2_list_1_7">英伦风</a>
+</li>
+</ul>
+</div>
+</div>
+</ul>
+</li>
+<li class="sport cataline bgf">
+<i class="i"></i>运动休闲
+<ul class="smallcata">
+<li>
+<a target="_blank" title="跑步鞋" href="http://www.letao.com/s~%E8%B7%91%E6%AD%A5%E9%9E%8B?ts=201402250607" lt_stat_linkid="lt_submenu_3_list_1_5570030710" lt_stat_type="1" lt_stat_id="lt_submenu_3_list_1_0">跑步鞋</a>
+</li>
+<li>
+<a target="_blank" title="潮流板鞋" href="http://www.letao.com/market--mkt-20140731?sid=8&amp;pcode=zhuant20140731&amp;ob=0&amp;mtype=2" lt_stat_linkid="lt_submenu_3_list_1_1165722968" lt_stat_type="1" lt_stat_id="lt_submenu_3_list_1_1">潮流板鞋</a>
+</li>
+<li>
+<a target="_blank" title="户外鞋" href="http://www.letao.com/market--mkt-20140018?sid=8&amp;pcode=zhuant20140802&amp;ob=0&amp;mtype=2" lt_stat_linkid="lt_submenu_3_list_1_8851245009" lt_stat_type="1" lt_stat_id="lt_submenu_3_list_1_2">户外鞋</a>
+</li>
+<li>
+<a target="_blank" title="篮球鞋" href="http://www.letao.com/s~%E7%AF%AE%E7%90%83%E9%9E%8B?ts=201402250602" lt_stat_linkid="lt_submenu_3_list_1_4487348936" lt_stat_type="1" lt_stat_id="lt_submenu_3_list_1_3">篮球鞋</a>
+</li>
+<li>
+<a target="_blank" title="足球鞋" href="http://www.letao.com/s~%E8%B6%B3%E7%90%83%E9%9E%8B?ts=201402250606" lt_stat_linkid="lt_submenu_3_list_1_9029962187" lt_stat_type="1" lt_stat_id="lt_submenu_3_list_1_4">足球鞋</a>
+</li>
+<li>
+<a target="_blank" title="常青款" href="http://www.letao.com/market--mkt-20140703?sid=8&amp;pcode=zhuant20140703&amp;ob=0&amp;mtype=2" lt_stat_linkid="lt_submenu_3_list_1_1377487346" lt_stat_type="1" lt_stat_id="lt_submenu_3_list_1_6">常青款</a>
+</li>
+<div class="rightsmall"></div>
+<div class="RightCata">
+<div>品牌：<ul>
+<li>
+<a target="_self" href="http://www.letao.com/shoes-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">LENSLOU</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/xxa-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">啸行安</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/nike-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">耐克</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/adidas-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">阿迪达斯</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/converse-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">匡威</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/adidas-original-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">三叶草</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/lining2014-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">李宁</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/361sport-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">361度</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/lovebar-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">LOVE BAR</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/jinyue-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">劲越</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/eyu-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">鳄鱼恤</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/puma-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">彪马</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/kappa-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">卡帕</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/north-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">乐斯菲斯</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/toread-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">探路者</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/pf-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">PathFinder</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/erke-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">鸿星尔克</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/columbia-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">哥伦比亚</a>
+</li>
+</ul>
+</div>
+<div>款式：<ul>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-18-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">板鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-2-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">跑步鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-1-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">篮球鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-12-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">网球鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-6-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">足球鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-5-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">训练鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-37-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">硫化鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-42-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">帆布鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-29-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">休闲鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-30-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">徒步鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-31-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">登山鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-39-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">溯溪鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-22-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">休闲皮鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-11-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">单鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-16-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">靴子</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-14-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">凉鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-34-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">凉拖</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-52-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">户外鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-53-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">拖鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-54-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">羽毛球鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-57-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">越野鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-58-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">雪地靴</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-59-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">健步鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-60-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">滑板鞋</a>
+</li>
+<li>
+<a target="_self" href="http://www.letao.com/shoe-3-a-65-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8">涉水鞋</a>
+</li>
+</ul>
+</div>
+</div></ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="center">
+<div class="home">
+<a href="http://www.letao.com/" rel="nofollow">首页</a></div>
+<div class="catergray">
+<a href="http://www.letao.com/model/beautylist" rel="nofollow">电商模特大赛</a></div>
+<div class="catergray">
+<a href="http://www.letao.com/shoe-4-0-a-a-a-a-a-a-p1-n~woman" rel="nofollow">女鞋</a></div>
+<div class="catergray">
+<a href="http://www.letao.com/shoe-4-1-a-a-a-a-a-a-p1-n~man" rel="nofollow">男鞋</a></div>
+<div class="catergray">
+<a href="http://www.letao.com/shoe-3-a-a-a-a-a-a-a-s~%E8%BF%90%E5%8A%A8" rel="nofollow">运动休闲鞋</a></div>
+<div class="catergray">
+<a href="http://f.letao.com/" rel="nofollow">B2B分销</a></div>
+</div>
+</div>
+</div>
+</header>
+<div id="ltwrapper" class="center relat">
+<input id="requestUrl" type="hidden" value="http://www.letao.com/shoe-a-1-a-a-a-a-a-a-p1-n~man">
+<div id="ltlinknav" class="blue_border">
+<a href="http://www.letao.com/">首页</a>&nbsp;&gt;&nbsp;登录
+</div>
+<div class="reg_main">
+<div id="reg_right" style="margin-right:100px;    ">
+<h2>还不是乐淘用户？</h2>
+<p>现在免费注册成为乐淘用户，便能立刻享受便宜又放心的购物乐趣。</p>
+<div style="text-align:center">
+<a href="http://www.letao.com/letaozu/login/register.aspx" title="注册帐号"><img src="./登录乐淘_files/btn_register.gif" alt="注册帐号"></a>
+</div>
+</div>
+<div class="login_table" style="font-size:16px;">
+<table width="585px">
+<tbody>
+<tr>
+<td class="td_left">帐号名：</td>
+<td><input class="reg_input" id="txtUserName" onblur="rem();"><span class="regInfo">(请输入你的手机号或Email地址)</span></td>
+</tr>
+<tr>
+<td class="td_left">密&nbsp;&nbsp;码：</td>
+<td><input class="reg_input" type="password" id="txtPwd"><span class="regInfo">(密码 3-25位 区分大小写)</span></td>
+</tr>
+<tr>
+<td></td>
+<td style="    padding-top: 20px;"><a style="margin-left:10px;margin-right:10px;text-decoration:underline;color:#999" href="http://www.letao.com/letaozu/login/FindPwd.aspx">找回密码</a><input style="border: 0;background:none;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 22px;
+    height: 22px;
+    width: 100px;
+    top: 1px;
+    background-color: #e22421;
+    border-radius: 2px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    /* width: 80px; */" type="button" class="btnblue" id="btn_login" value="登 录"></td>
+</tr>
+</tbody>
+</table>
+<div>
+<div style="float:left;width:500px;padding:0 0 0 32px ; margin-top: 50px;">
+<h2>使用合作伙伴帐号登录乐淘：</h2>
+<div style="padding-top:5px;height: 130px">
+<a class="icon part_163" href="http://www.letao.com/letaozu/3rd_pages/netease/163loginTransfer.aspx" rel="nofollow" target="_self">网易</a>
+<a class="icon part_ren" style="border-right:1px solid #DBDBDB;width:50px;" href="javascript:void(0);" target="_self" id="xn_login_image" rel="nofollow">人人网</a>
+<a style="float:left;height:17px;margin-left:3px;padding:0 5px 0 4px;line-height:17px;border-right:1px solid #DBDBDB" href="http://www.letao.com/letaozu/3rd_pages/tuan360/New360LoginTransfer.aspx" target="_self" rel="nofollow">
+<img src="./登录乐淘_files/t360.gif">360</a><a style="float:left;height:17px;margin-left:3px;padding:0 5px 0 4px;line-height: 17px;border-right:1px solid #DBDBDB" href="http://www.letao.com/letaozu/3rd_pages/tuanbaidu/tuanbaiduLoginTransfer.aspx" target="_self" rel="nofollow">
+<img src="./登录乐淘_files/baidu.gif">百度</a>
+<a style="float:left;height:17px;margin-left:3px;padding:0 5px 0 4px;line-height:17px;border-right:1px solid #DBDBDB" href="http://www.letao.com/letaozu/3rd_pages/qq/QQLoginTransfer.aspx" target="_self" rel="nofollow">
+<img src="./登录乐淘_files/qq.gif">QQ</a>
+<a style="float:left;height:17px;margin-left:3px;padding:0 5px 0 4px;line-height:17px" href="http://www.letao.com/letaozu/3rd_pages/tsina/SinaWeiboLoginTransfer.aspx" target="_self" rel="nofollow">
+<img alt="" src="./登录乐淘_files/SinaLogo.png">&nbsp;新浪微博 </a>
+<div id="DisplayLayer">
+<h1><img src="./登录乐淘_files/caibei.jpg">QQ彩贝联盟商户</h1>
+<p>使用QQ登录无需注册，购物还可额外获得彩贝积分返还</p>
+</div>
+<br><br><br>
+<script type="text/javascript" src="./登录乐淘_files/FeatureLoader.jsp"></script>
+<br class="clear">
+</div>
+</div>
+<br class="clear">
+</div>
+</div>
+<br class="clear">
+</div>
+</div>
+<script type="text/javascript">
+   
+    function rem()
+    {
+        alert("+++++++++")
+        var ss = window.document.getElementsByTagName("dl");
+        for(var i=0;i<ss.length;i++)
+        {
+            alert(ss[i].value);
+        }
+    }
+	var XNAddEventListener = function (element, type, handler) {
+		if (element.addEventListener) {
+			element.addEventListener(type, handler, false);
+		} else if (element.attachEvent) {
+			handler._ieEventHandler = function () {
+				handler(window.event);
+			};
+			(element).attachEvent("on" + type, (handler._ieEventHandler));
+		}
+	}
+
+	XN_RequireFeatures(["Api"], function () {
+		XN.Main.init("eee3d20af5d149238271160860042443", "/letaozu/3rd_pages/renren/xd_receiver.htm");
+		XNAddEventListener(document.getElementById("xn_login_image"), "click", function () {
+			XN.Connect.requireSession(function () {
+				location.reload();
+			});
+			return false;
+		});
+	});
+</script>
+<section class="clearfix"></section>
+<footer class="foolter" style="width: 1263px;"><div class="top">
+<div class="topback">
+<div class="first">
+<ul>
+<li class="them">新手帮助</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1290" title="正品保证" target="_blank" rel="nofollow">正品保证</a>
+</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1276" title="玩转乐淘" target="_blank" rel="nofollow">玩转乐淘</a>
+</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1277" title="常见问题" target="_blank" rel="nofollow">常见问题</a>
+</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1275" title="优惠指南" target="_blank" rel="nofollow">优惠指南</a>
+</li>
+</ul>
+</div><div class="second">
+<ul>
+<li class="them">购物指南</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1278" title="尺码选择" target="_blank" rel="nofollow">尺码选择</a>
+</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1279" title="发货时间" target="_blank" rel="nofollow">发货时间</a>
+</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1280" title="配送运费" target="_blank" rel="nofollow">配送运费</a>
+</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1281" title="签收/验货" target="_blank" rel="nofollow">签收/验货</a>
+</li>
+</ul>
+</div><div class="third">
+<ul>
+<li class="them">支付/配送</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1282" title="货到付款" target="_blank" rel="nofollow">货到付款</a>
+</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1283" title="网上支付" target="_blank" rel="nofollow">网上支付</a>
+</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1284" title="配送时间" target="_blank" rel="nofollow">配送时间</a>
+</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1285" title="配送查询" target="_blank" rel="nofollow">配送查询</a>
+</li>
+</ul>
+</div><div class="fourth">
+<ul>
+<li class="them">售后服务</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1286" title="退换货政策" target="_blank" rel="nofollow">退换货政策</a>
+</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1287" title="退换货办理" target="_blank" rel="nofollow">退换货办理</a>
+</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1289" title="退款说明" target="_blank" rel="nofollow">退款说明</a>
+</li>
+</ul>
+</div><div class="fifth">
+<ul>
+<li class="them">会员服务</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/feedback/feedback.aspx" title="建议反馈" target="_blank" rel="nofollow">建议反馈</a>
+</li>
+<li class="other">
+<a href="http://www.letao.com/letaozu/help/help.aspx?id=1296" title="CEO邮箱" target="_blank" rel="nofollow">CEO邮箱</a>
+</li>
+</ul>
+</div><div class="seventh">
+<br>
+<ul style="padding-left: 32px;">
+<li class="f14">7*12小时电话：</li>
+<li class="phone f18">400-0022-188</li>
+<li class="btn"> <a class="pl5 f16" href="http://www.letao.com/letaozu/help/help.aspx?id=1021" rel="nofollow"><i></i><span>联系乐淘</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="center">
+<div class="HelpUL">
+<ul>
+<li class="first"><a href="http://www.letao.com/Marketing/2008/index.aspx?id=1051" target="_blank" rel="nofollow">了解乐淘</a><span>丨</span></li>
+<li><a href="http://www.letao.com/letaozu/help/help.aspx?id=1021" target="_blank" rel="nofollow">联系乐淘</a><span>丨</span></li>
+<li><a href="http://www.letao.com/Marketing/2008/index.aspx?id=1051" target="_blank" rel="nofollow">媒体报道</a><span>丨</span></li>
+<li><a href="http://www.letao.com/letaozu/help/help.aspx?id=1022" target="_blank" rel="nofollow">版权声明</a><span>丨</span></li>
+<li><a href="http://www.letao.com/letaozu/help/help.aspx?id=1023" target="_blank">友情链接</a><span>丨</span></li>
+<li><a href="http://www.letao.com/letaozu/job/index.aspx" target="_blank" rel="nofollow">加入乐淘</a><span>丨</span></li>
+<li><a href="http://www.letao.com/lianmeng/" target="_blank" rel="nofollow">网站联盟</a><span>丨</span></li>
+<li><a href="http://www.letao.com/letaozu/help/help.aspx?id=1024" target="_blank" rel="nofollow">商务合作</a><span>丨</span></li>
+<li><a href="http://www.letao.com/sitemap.html" target="_blank">网站导航</a><span>丨</span></li>
+<li><a href="http://www.letao.com/letaozu/category.aspx" target="_blank">分类大全</a><span>丨</span></li>
+<li><a href="http://www.letao.com/letaozu/qalist.aspx" target="_blank">问题大全</a></li></ul>
+</div>
+</div>
+<div class="bottom">
+<div class="copyright">
+Copyright © 2008 - 2015 Letao Inc. 乐淘网&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp;&nbsp;买鞋子&nbsp;&nbsp;上乐淘&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">粤ICP备14019125号</a>
+</div>
+</div>
+</footer>
+<section class="clearfix"></section>
+<i style="display:none">100.110%13|100.110</i>
+<script language="javascript" type="text/javascript">
+_DEFAULT_SEARCH_KEYWORD='运动鞋';_USER_SEARCH_KEYWORD='';
+</script>
+<script language="javascript" type="text/javascript">
+var _gaq=_gaq||[];_gaq.push(['_addOrganic','baidu','word']);_gaq.push(['_addOrganic','baidu','wd']);_gaq.push(['_addOrganic','360','q']);_gaq.push(['_addOrganic','soso','w']);_gaq.push(['_addOrganic','youdao','q']);_gaq.push(['_addOrganic','bing','q']);_gaq.push(['_addOrganic','sogou','query']);_gaq.push(['_addIgnoredOrganic','乐淘']);_gaq.push(['_addIgnoredOrganic','乐淘网']);_gaq.push(['_addIgnoredOrganic','www.letao.com']);_gaq.push(['_addIgnoredOrganic','letao.com']);_gaq.push(['_setDomainName','letao.com']);_gaq.push(['_setAccount','UA-23351687-1']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();
+</script>
+<script type="text/javascript">var _bdhmProtocol = (('https:' == document.location.protocol) ?  'https://' : 'http://');document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F550cacd7155eb4f1de832d1c00b07352' type='text/javascript'%3E%3C/script%3E"));</script><script src="./登录乐淘_files/h.js" type="text/javascript"></script><div id="XN_HiddenContainer" style="position: absolute; top: -10000px; left: -10000px; width: 0px; height: 0px;"><div><embed width="1" height="1" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" allowscriptaccess="always" name="flashXdComm" id="flashXdComm" bgcolor="#869ca7" quality="high" src="http://a.xnimg.cn/connect/swf/XNConnect2.1.swf"></div></div><iframe src="./登录乐淘_files/login_status.html" name="loginStatus" style="position: absolute; visibility: hidden; width: 1px; height: 1px;"></iframe><a href="http://tongji.baidu.com/hm-web/welcome/ico?s=550cacd7155eb4f1de832d1c00b07352" target="_blank"><img border="0" src="./登录乐淘_files/21.gif" width="20" height="20" style="display: none;"></a>
+
+</body></html>

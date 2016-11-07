@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel = "stylesheet" href = "css/letao.css" />
+		<link rel = "stylesheet" href = "css/letao_注册.css" />
+		<script src = "js/jquery-1.11.3.js"></script>
+		<script type = "text/javascript" src = "js/jquery.cookie.js" ></script>
+		<script type ="text/javascript" src = "js/letao.js" ></script>
+	</head>
+	<body>
+		<div class = "topheader">
+			<div class = "tophead">
+				<div class = "left_tophead">
+					<div class = "send" id = "send">
+						发送：<span>北京</span>
+						<img src = "img/images_01/5.gif">
+					</div>
+					<span class = "border">|</span>						
+					<div class = "celltion" id = "celltion">
+						<img src = "img/images_01/1.gif"/>&nbsp;收藏
+					</div>
+					<span class= "border">|</span>
+					<div class = "look" id = "look">
+						<img src = "img/images_01/2.gif"/>关注
+					</div>
+				</div>
+				<div class="right_tophead">
+					<ul>
+						<li id = "login"><a href = "#">请登录</a></li>
+						<span class = "border">|</span>
+						<li id = "free_registration"><a href = "#">免费注册</a></li>                               
+						<span class = "border">|</span>
+						<li id = "myletao">
+							<span>我的乐淘<img src = "img/images_01/5.gif"/></span>
+							<div id = "my_letao">
+								<ul id = "my_left">
+									<li><a href = "#">我的订单</a></li>
+									<li><a href = "#">我的订单</a></li>
+									<li><a href = "#">我的订单</a></li>
+									<li><a href = "#">我的订单</a></li>
+								</ul>
+								<ul id = "my_right">
+									<li><a href = "#">我的订单</a></li>
+									<li><a href = "#">我的订单</a></li>
+									<li><a href = "#">我的订单</a></li>
+									<li><a href = "#">我的订单</a></li>
+								</ul>
+							</div>
+						</li>
+						<span class = "border">|</span>
+						<li><a href = "#"><img src = "img/images_01/3.gif"/>&nbsp;购物车</a></li>
+						<span class = "border">|</span>
+						<li id = "information">
+							<img src = "img/images_01/4.gif">消息
+							<div id = "information_list">
+								<ul id = "">
+									<li><a href = "#">最新公告</a></li>
+									<li><a href = "#">订单提醒</a></li>
+									<li><a href = "#">评价提醒</a></li>								
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>				
+			</div>
+			<div class ="centerhead">
+				<img src ="img/images_01/6.gif"/>
+			</div>
+		</div>
+		<div class = "foothead">
+			<div class ="left_foothead">
+				<a href = "#"><img src = "img/images_01/logo.jpg"/></a>
+			</div>
+			<div class = "center_foothead">
+				<div id = "search">
+					<input id = "search_input" type = "text" value ="休闲鞋" />                               
+					<div id = "shop_search"><img src ="img/images_01/search.png"/>&nbsp;搜&nbsp;索</div>
+				</div>
+				<p id = "hot_search">
+					热门搜索：
+					<a href = "#">休闲鞋</a>
+					<a href = "#">运动鞋</a>
+					<a href = "#">商务鞋</a>
+					<a href = "#">户外鞋</a>
+					<a href = "#">帆布鞋</a>
+				</p>					
+			</div>
+			<div class = "right_foothead">
+				<div class = "picc">
+					<img src = "img/images_01/7.gif" /> 
+					<p>厂家直供</br>正品保证</p>
+				</div>
+				<div class = "promise">
+					<img src = "img/images_01/8.gif" />
+					<p>七天退货</br>购物有保障</p>
+				</div>
+				<div class = "express">
+					<img src = "img/images_01/9.gif" />
+					<p>满149包邮</br>闪电发货</p>
+				</div>
+			</div>
+		</div>		
+		<div class = "nav">
+			<div class = "det_nav" id = 'det_nav'>
+				<ul class="nav_top" id = "nav_top">
+					<li id = "all">所有商品分类&nbsp;&nbsp;<img src = "img/images_01/16.gif"/></li>
+					<li id = "home"><a href = "#">首页</a></li>                            
+					<li><a href = "#">电商模特大赛</a></li>
+					<li><a href = "#">女鞋</a></li>
+					<li><a href = "#">男鞋</a></li>
+					<li><a href = "#">运动休闲鞋</a></li>
+					<li><a href = "#">B2B分销</a></li>
+				</ul>
+			</div>
+		</div>	
+		<div id = "adress">
+			<a href = "index.html">首页</a>&nbsp;>&nbsp;注册
+		</div>
+		<div id = "hint">
+			<p >已有乐淘帐号？请点 <a href = "#">这里登录</a></p>
+		</div>
+		<div id = "regedit">			
+			<table id = "regedit_txt">
+				<tr >
+					<td class = "txt_td">账号名：</td>
+					<td><input id = "account_name" type = "text/"><span id = "name_hint">(请输入你的手机号或Email地址)</span></td>
+				</tr>
+				<tr>
+					<td class = "txt_td">密码：</td>
+					<td><input id = "password" type = "text/"><span id = "password_hint">(密码 3-25位 区分大小写)</span></td>
+				</tr>
+				<tr>
+					<td class = "txt_td">再次输入密码：</td>
+					<td><input id = "confirm_password" type = "text/"><span id = "affirm_hint">(密码 3-25位 区分大小写)</span></td>
+				</tr>
+				<tr>
+					<td class = "txt_td"><input type = "checkbox"/></td>
+					<td>我已阅读并同意<a href = "#">《乐淘服务协议》</a></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input id = "txt_btn" type = "button" value="注册"/></td>
+				</tr>
+			</table>	
+		</div>
+		<div id = "copy">
+			<div id = "copy_list">
+				<ul>
+					<li class = "copy_first">新手帮助</li>
+					<li><a href = "#">正品保证</a></li>
+					<li><a href = "#">玩转乐淘</a></li>
+					<li><a href = "#">常见问题</a></li>
+					<li><a href = "#">优惠指南</a></li>
+				</ul>
+				<ul>
+					<li class = "copy_first">购物指南</li>
+					<li><a href = "#">尺码选择</a></li>
+					<li><a href = "#">发货时间</a></li>
+					<li><a href = "#">配送运费</a></li>
+					<li><a href = "#">签收/验货</a></li>
+				</ul>
+				<ul>
+					<li class = "copy_first">支付/配送</li>
+					<li><a href = "#">货到付款</a></li>
+					<li><a href = "#">网上支付</a></li>
+					<li><a href = "#">网上支付</a></li>
+					<li><a href = "#">配送查询</a></li>
+				</ul>
+				<ul>
+					<li class = "copy_first">售后服务</li>
+					<li><a href = "#">退换货政策</a></li>
+					<li><a href = "#">退换货办理</a></li>
+					<li><a href = "#">退款说明</a></li>
+				</ul>			
+				<ul>			
+					<li class = "copy_first">会员服务</li>
+					<li><a href = "#">建议反馈</a></li>
+					<li><a href = "#">CEO邮箱</a></li>
+				</ul>
+				<ul>			
+					<li>7*12小时电话</li>
+					<li>400-0022-188</li>
+					<li><a href = "#">联系乐淘</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id = "stern">
+			<ul id= "stern_list">
+				<li><a href = "#">了解乐淘</a></li>
+				<li><a href = "#">联系乐淘</a></li>
+				<li><a href = "#">媒体报道</a></li>
+				<li><a href = "#">版权声明</a></li>
+				<li><a href = "#">友情链接</a></li>
+				<li><a href = "#">加入乐淘</a></li>
+				<li><a href = "#">网站联盟</a></li>
+				<li><a href = "#">商务合作</a></li>
+				<li><a href = "#">网站导航</a></li>
+				<li><a href = "#">分类大全</a></li>
+				<li class="stern_list_last"><a href = "#">问题大全</a></li>
+			</ul>			
+		</div>
+		<div id = "approval">
+			<p id = "net_approval">
+			Copyright © 2008 - 2015 Letao Inc. 乐淘网  版权所有    买鞋子  上乐淘    粤ICP备14019125号
+			</p>
+		</div>
+	</body>
+</html>
